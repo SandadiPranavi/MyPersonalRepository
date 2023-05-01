@@ -41,6 +41,7 @@ public class textbox {
 		else {
 			System.err.println("no txt box didplayed");
 		
+			
 		}
 		WebElement Signin = driver.findElement(By.name("commit"));
 		if(Signin.isDisplayed()) {
@@ -56,6 +57,9 @@ public class textbox {
 			System.err.println("no txt box didplayed");
 		
 		}
+		
+		
+		System.out.println("Done");
 
 	}
 
